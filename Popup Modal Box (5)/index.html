@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+  <!--==================== METADATOS ====================-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="Modal-Popup">
+      <meta name="keywords" content="HTML-CSS-JS">
+      <meta name="author" content="Rocio Cuello">
+      
+      <!--==================== CSS ====================-->
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <!--==================== TITULO ====================-->
+      <title>Modal-Popup  | Popup Modal Box</title>
+
+      <!--==================== ICONO DE PESTAÑA ====================-->
+      <link rel="icon" sizes="64x64" href="assets/img/favicon.webp"> 
+
+      
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+
+  <body>
+      <section class="modal container">
+        <button class="modal__button" id="open-modal">
+          Abrir Modal
+        </button>
+    
+        <div class="modal__container" id="modal-container">
+          <div class="modal__content">
+            <div class="modal__close close-modal" title="Cerrar">
+              <i class='bx bx-x'></i>
+            </div>
+    
+            <img src="assets/img/star-trophy.png" alt="" class="modal__img">
+    
+            <h1 class="modal__title">¡Buen trabajo!</h1>
+            <p class="modal__description">Haz clic en el botón para cerrar</p>
+    
+            <button class="modal__button modal__button-width">
+              Ver estado
+            </button>
+    
+            <button class="modal__button-link close-modal">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </section>
+
+    
+       <!--==================== script ====================-->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
